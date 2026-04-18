@@ -30,8 +30,8 @@ app.use((req, res, next) => {
 const allowedOrigins=[
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://fooddeliveryapp-admin-5fn3.onrender.com",
-  'https://fooddeliveryapp-frontend-oh6b.onrender.com'
+  "https://fooddeliveryapp-frontend-ywqx.onrender.com",
+  'https://fooddeliveryapp-admin-gz6n.onrender.com'
 ];
 
 app.use(cors({
