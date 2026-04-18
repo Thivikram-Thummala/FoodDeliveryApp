@@ -12,8 +12,9 @@ const StoreContextProvider = (props) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [user, setUser] = useState(null);
     const [token,setToken]=useState("")
-     const url = "http://localhost:4000";
-    //const url = "https://fooddeliveryapp-backend-xeb9.onrender.com";
+     //const url = "http://localhost:4000";
+    const url = "https://fooddeliveryapp-fnat.onrender.com";
+
         // uncomment when there is data of food present in databae-->used to fetch the data from db
         // and we can remove the food_list compoent form assets
     const [food_list,setFoodList]=useState([])
